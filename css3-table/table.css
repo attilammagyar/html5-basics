@@ -1,0 +1,151 @@
+html, body
+{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	font-family: Verdana, sans-serif;
+}
+
+html
+{
+	background: #e0e0ff;
+}
+
+table
+{
+	width: 80%;
+	margin: 2.5em auto 2.5em auto;
+	border: solid 2px black;
+	border-radius: 12px;
+}
+
+table,
+table *
+{
+	border-spacing: 0;
+}
+
+thead tr th,
+tbody tr td,
+tfoot tr td
+{
+	padding: 0.5em;
+	border-right: solid 1px black;
+	border-bottom: solid 1px black;
+}
+
+tr *:last-child
+{
+	border-right-style: none;
+}
+
+thead tr th:first-child
+{
+	border-top-left-radius: 10px;
+}
+
+thead tr th:last-child
+{
+	border-top-right-radius: 10px;
+}
+
+tfoot *
+{
+	border-bottom-style: none;
+}
+
+tfoot tr td:first-child
+{
+	border-bottom-left-radius: 10px;
+}
+
+tfoot tr td:last-child
+{
+	border-right-style: none;
+	border-bottom-right-radius: 10px;
+}
+
+th
+{
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#555));
+	background: -webkit-linear-gradient(#000, #555);
+	background: -o-linear-gradient(#000, #555);
+	background: -moz-linear-gradient(100% 100% 90deg, #555, #000);
+	color: white;
+	font-weight: bold;
+}
+
+tfoot td
+{
+	background: -webkit-gradient(linear, left top, left bottom, from(#555), to(#000));
+	background: -webkit-linear-gradient(#555, #000);
+	background: -o-linear-gradient(#555, #000);
+	background: -moz-linear-gradient(100% 100% 90deg, #000, #555);
+	background: linear-gradient(#555, #000);
+	color: white;
+	font-weight: bold;
+}
+
+tbody tr:nth-child(2n)
+{
+	background-color: #c8c8f0;
+}
+
+tbody tr:nth-child(2n+1)
+{
+	background-color: #ffffff;
+}
+
+table
+{
+	table-layout: fixed;
+}
+
+table thead tr th:nth-child(2)
+{
+	width: 30%;
+}
+
+tbody tr td
+{
+	height: 1.5em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-mozilla-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+}
+
+tbody tr:hover
+{
+	background-color: #b0ffb0;
+}
+
+tbody tr:target td
+{
+	height: auto;
+	overflow: visible;
+	white-space: normal;
+	background-color: #ffe8b0;
+}
+
+tbody tr a.show_details
+{
+	display: inline;
+}
+tbody tr a.hide_details
+{
+	display: none;
+}
+tbody tr:target a.show_details
+{
+	display: none;
+}
+tbody tr:target a.hide_details
+{
+	display: inline;
+}
+
