@@ -67,21 +67,22 @@ tfoot tr td:last-child
 
 th
 {
-	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#555));
-	background: -webkit-linear-gradient(#000, #555);
-	background: -o-linear-gradient(#000, #555);
-	background: -moz-linear-gradient(100% 100% 90deg, #555, #000);
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#777));
+	background: -webkit-linear-gradient(#000, #777);
+	background: -o-linear-gradient(#000, #777);
+	background: -moz-linear-gradient(100% 100% 90deg, #777, #000);
+	background: linear-gradient(#000, #777);
 	color: white;
 	font-weight: bold;
 }
 
 tfoot td
 {
-	background: -webkit-gradient(linear, left top, left bottom, from(#555), to(#000));
-	background: -webkit-linear-gradient(#555, #000);
-	background: -o-linear-gradient(#555, #000);
-	background: -moz-linear-gradient(100% 100% 90deg, #000, #555);
-	background: linear-gradient(#555, #000);
+	background: -webkit-gradient(linear, left top, left bottom, from(#777), to(#000));
+	background: -webkit-linear-gradient(#777, #000);
+	background: -o-linear-gradient(#777, #000);
+	background: -moz-linear-gradient(100% 100% 90deg, #000, #777);
+	background: linear-gradient(#777, #000);
 	color: white;
 	font-weight: bold;
 }
