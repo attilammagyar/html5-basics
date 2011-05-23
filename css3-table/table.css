@@ -67,6 +67,7 @@ tfoot tr td:last-child
 
 th
 {
+	background: #000;
 	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#777));
 	background: -webkit-linear-gradient(#000, #777);
 	background: -o-linear-gradient(#000, #777);
@@ -78,6 +79,7 @@ th
 
 tfoot td
 {
+	background: #000;
 	background: -webkit-gradient(linear, left top, left bottom, from(#777), to(#000));
 	background: -webkit-linear-gradient(#777, #000);
 	background: -o-linear-gradient(#777, #000);
