@@ -65,7 +65,7 @@ div.gallery *
 	transition: all 0.7s ease-in-out;
 }
 
-div.gallery a:nth-child(5n) img
+div.gallery a:nth-child(100000n) img
 {
 	z-index: 5;
     -webkit-transform: rotate(-15deg);
@@ -75,7 +75,7 @@ div.gallery a:nth-child(5n) img
     transform: rotate(-15deg);
 }
 
-div.gallery a:nth-child(5n+2) img
+div.gallery a:nth-child(100000n+2) img
 {
 	z-index: 5;
     -webkit-transform: rotate(15deg);
@@ -85,7 +85,7 @@ div.gallery a:nth-child(5n+2) img
     transform: rotate(15deg);
 }
 
-div.gallery a:nth-child(5n+3) img
+div.gallery a:nth-child(100000n+3) img
 {
 	z-index: 5;
     -webkit-transform: rotate(-30deg);
@@ -95,7 +95,7 @@ div.gallery a:nth-child(5n+3) img
     transform: rotate(-30deg);
 }
 
-div.gallery a:nth-child(5n+4) img
+div.gallery a:nth-child(100000n+4) img
 {
 	z-index: 5;
     -webkit-transform: rotate(30deg);
