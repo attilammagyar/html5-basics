@@ -1,0 +1,150 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	background-color: #000;
+}
+
+html, body
+{
+	width: 100%;
+	min-height: 100%;
+}
+
+div.main
+{
+	min-height: 100%;
+	background: #204;
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#204));
+	background: -webkit-linear-gradient(#000, #204);
+	background: -o-linear-gradient(#000, #204);
+	background: -moz-linear-gradient(100% 100% 90deg, #204, #000);
+	background: linear-gradient(#000, #204);
+}
+
+div.gallery
+{
+	float: left;
+	margin: 10px;
+	padding: 80px 0px 0px 80px;
+	min-width: 110px;
+	min-height: 110px;
+	max-height: 110px;
+	max-width: 110px;
+}
+
+div.gallery a
+{
+	float: left;
+	display: inline-block;
+	margin: -55px;
+	width: 110px;
+	height: 110px;
+}
+
+div.gallery img
+{
+	position: relative;
+	z-index: 10;
+	max-width: 100px;
+	max-height: 100px;
+	border: solid 5px #fff;
+}
+
+div.gallery,
+div.gallery *
+{
+	-webkit-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
+}
+
+div.gallery a:nth-child(5n) img
+{
+	z-index: 5;
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+div.gallery a:nth-child(5n+2) img
+{
+	z-index: 5;
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+div.gallery a:nth-child(5n+3) img
+{
+	z-index: 5;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+
+div.gallery a:nth-child(5n+4) img
+{
+	z-index: 5;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+div.gallery:target
+{
+	position: absolute;
+	z-index: 20;
+	padding: 0px;
+	margin: 0px;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	min-height: 100%;
+	max-width: 99%;
+	max-height: 1000000px;
+	background-color: rgba(32, 0, 64, 0.85);
+}
+
+div.gallery:target a
+{
+	margin: 15px;
+}
+
+div.gallery:target a:nth-child(1n+1) img
+{
+	z-index: 30;
+	margin: 2px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+div.gallery:target a:nth-child(1n+1):hover img
+{
+	position: absolute;
+	padding: 0px;
+	top: 2%;
+	left: 2%;
+	z-index: 50;
+	max-width: 90%;
+	max-height: 90%;
+	width: auto;
+}
+
