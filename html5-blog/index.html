@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Lorem ipsum blog post</title>
+	</head>
+	<body>
+		<header>
+			<h1>Lorem ipsum blog post</h1>
+		</header>
+		<section>
+			<hgroup>
+				<h1>Lorem ipsum</h1>
+				<h2>Dolor sit amet</h2>
+			</hgroup>
+			<article>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Fusce scelerisque sem ut leo sodales in fringilla mauris
+					condimentum. Etiam sodales interdum viverra. Proin porta
+					fermentum gravida. Sed lobortis leo sit amet neque sagittis
+					gravida. Etiam viverra posuere mauris, vel aliquam lacus
+					sollicitudin ac.
+				</p>
+				<figure>
+					<img
+						src="http://farm4.static.flickr.com/3406/4574487440_9b3e73acc4_m.jpg"
+						alt="Cup of milk with biscuits" />
+					<figcaption>
+						A cup of milk with biscuits.
+					</figcaption>
+				</figure>
+				<p>
+					Sed id sem nec nulla faucibus gravida vitae vitae quam. Nulla varius
+					semper quam, vel fermentum nisi malesuada vitae. Suspendisse
+					ac nisl nisi. Quisque vel urna libero, eget condimentum eros.
+					Donec non augue vel tellus ultricies mattis eu sed nulla.
+					Praesent sed elit ut magna interdum bibendum.
+				</p>
+				<p>
+					Sed eu est nec enim auctor iaculis eget id elit. Integer quis
+					aliquet metus. Nunc nec nibh ante, eget pulvinar nisi. Etiam a
+					lacus in massa consequat mattis.
+				</p>
+			</article>
+		</section>
+		<section>
+			<h1>2 comments so far</h1>
+			<section>
+				<hgroup>
+					<h1>Lorem said</h1>
+					<h2><time datetime="2011-05-23T13:37:42">13:37 23 May 2011</time></h2>
+				</hgroup>
+				<article>
+					<p>
+						Duis felis orci, imperdiet vitae ultricies sit amet,
+						ultrices at lectus. Integer tincidunt porta hendrerit.
+					</p>
+				</article>
+			</section>
+			<section>
+				<hgroup>
+					<h1>Ipsum said</h1>
+					<h2><time datetime="2011-05-23T14:24:42">14:24 23 May 2011</time></h2>
+				</hgroup>
+				<article>
+					<p>
+						Ut tellus risus, vestibulum sed posuere eu, mattis
+						euismod urna. Pellentesque quis nisl elit, a sodales
+						diam.
+					</p>
+				</article>
+			</section>
+		</section>
+		<section>
+			<h1>Your comment</h1>
+			<h2><em>Hint</em>: try to submit invalid values</h2>
+			<form action="#" method="post">
+				<div>
+					<label>
+						Name:
+						<input
+							type="text"
+							name="name"
+							pattern="\S+"
+							required="required"
+							placeholder="Enter your name here"
+							autocomplete="on"
+							autofocus="autofocus" />
+					</label>
+				</div>
+				<div>
+					<label>
+						Email:
+						<input
+							type="email"
+							name="email_address"
+							pattern="[a-zA-Z0-9_.-]+@([a-zA-Z0-9-]+\.)+[a-z]{2,7}"
+							placeholder="Enter your email address here"
+							autocomplete="on" />
+					</label>
+				</div>
+				<div>
+					<label>
+						Website:
+						<input
+							type="url"
+							name="website_url"
+							pattern="https?://([a-zA-Z0-9-]+\.)+[a-z]{2,7}"
+							placeholder="Enter your blog URL here"
+							autocomplete="on" />
+					</label>
+				</div>
+				<div>
+					<label for="comment_text">Comment: </label>
+					<textarea id="comment_text" name="comment_text" rows="15" cols="80"></textarea>
+				</div>
+				<div>
+					<button type="submit">Send comment</button>
+				</div>
+			</form>
+		</section>
+		<footer>
+			Copyright &amp; other useful information
+		</footer>
+	</body>
+</html>
